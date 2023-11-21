@@ -1,0 +1,76 @@
+.Navigation{
+    background-color: darkcyan;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+
+   
+}
+li,ul,h1{
+    display: inline;
+    position:sticky;
+}
+li{
+    padding-right:10px ;
+}
+ul{
+    left: 70%;
+}
+
+li:hover{
+    color: azure;
+    cursor: pointer;
+}
+.SearchBar{
+    text-align: center;
+    border-radius: 10px;
+}
+.SearchBar input{
+    margin-top: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+}
+
+.Containers{
+    padding: 30px;
+    text-align: center;
+}
+.Box{
+    width: 350px;
+    height: 300px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Box p:hover{
+color: aliceblue;
+background-color: black;
+cursor: pointer;
+}
+
+.About_us{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.ContactPg{
+    text-align: center;
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ContactPg h3:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+.ContactPg p:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
